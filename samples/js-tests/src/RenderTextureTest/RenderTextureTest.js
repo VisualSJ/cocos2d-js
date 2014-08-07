@@ -101,7 +101,7 @@ var RenderTextureSave = RenderTextureBaseLayer.extend({
                 }
             }, this);
 
-        this._brushs = [];
+        this._brush = [];
 
         var save = new cc.MenuItemFont("Save", this.saveCB, this);
         var clear = new cc.MenuItemFont("Clear", this.clearCB.bind(this)); // another way to pass 'this'
